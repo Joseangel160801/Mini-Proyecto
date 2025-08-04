@@ -17,7 +17,7 @@ function reducer(state, action) {
     default: return state;
   }
 }
-
+/*/ Hola....*/
 export default function App() {
   const [productos, dispatch] = useReducer(reducer, initialState);
   const [modal, setModal] = useState(false);
